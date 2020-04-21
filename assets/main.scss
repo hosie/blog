@@ -10,12 +10,12 @@
   margin: 1em 1em 2.5em 1em;
 }
 .notebox {
-  @include notebox
+  @include notebox;
 
 }
 
 .gotcha {
-  @include notebox
+  @include notebox;
   background-color: #FFEEDB;
   box-shadow: 10px 10px 5px #C4B7A9;
 
