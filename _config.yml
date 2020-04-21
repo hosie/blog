@@ -21,8 +21,8 @@
 title: Hosie
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I decided to write down some things that happened to be useful to
-  me just in case they are useful to you.
+  Writing down some things that have been useful to me
+  in case they are useful to you.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://hosie.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hosie31504
