@@ -11,11 +11,11 @@ When first moving to or evaluating OCP, you might want to take small steps.  If 
 
 I was using docker desktop for Mac and I would tend to write code, test it, build an image (using `docker build`), test the image on my local docker engine (using `docker run`), then deploy that image into my Docker Desktop Kubernetes cluster (using `kubectl run`).  
 
-![Previous Workflow]({{ site.base_url }}/assets/previous-workflow-local-k8s-workflow.png)
+![Previous Workflow]({{ site.url }}{{ site.baseurl}}/assets/previous-workflow-local-k8s-workflow.png)
 
 My eventual production environment is Red Hat OpenShift Container Platform so I wanted to try out Code Ready Containers as my local Kuberenetes cluster. I figured that I should probably swap `kubectl run` for `oc run`. I would probably need to do a `docker push` at some point given that CRC has its own image registry. If I could mimimise my first step of exploration to just those changes, then I would still be in my comfort zone and I would gradually be expanding that comfort zone.
 
-![Baby Step Towards CRC Workflow]({{ site.base_url }}/assets/baby-step-towards-crc-workflow.png)
+![Baby Step Towards CRC Workflow]({{ site.url }}{{ site.baseurl}}/assets/baby-step-towards-crc-workflow.png)
 
 
 OCP has a build system as part of the platform and some day I should learn and embrace that.  For now, I am just looking for the shortest path to get my docker images running on CRC. I want to stray as little as possible from my existing developer workflow.
