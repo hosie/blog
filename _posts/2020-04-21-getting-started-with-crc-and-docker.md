@@ -242,7 +242,7 @@ Now you have taken your first step and not deviated much from you previous devel
 
 
  <script src="https://utteranc.es/client.js"
-         repo="blog"
+         repo="hosie/blog"
          issue-term="pathname"
          label="BlogComment"
          theme="github-light"
