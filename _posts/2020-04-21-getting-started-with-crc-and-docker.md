@@ -64,7 +64,7 @@ oc login -u developer -p developer https://api.crc.testing:6443
 {: .notebox }
 
 
-**GOTCHA**: I did hit one hiccup while doing this. The networking from the cluster seemed not to work if I was connected to my company's VPN.  I noticed that the cluster got into a bad state if I was connected to the VPM while either creating and or running the cluster. I never got to the bottom of this and it might be a red herring. It seems to work fine if I delete the cluster and then start from scratch while not connected to the VPN. See [this issue](https://github.com/code-ready/crc/issues/1162).
+**GOTCHA**: I did hit one hiccup while doing this. The networking from the cluster seemed not to work if I was connected to my company's VPN.  I noticed that the cluster got into a bad state if I was connected to the VPN while either creating and or running the cluster. I never got to the bottom of this and it might be a red herring. It seems to work fine if I delete the cluster and then start from scratch while not connected to the VPN. See [this issue](https://github.com/code-ready/crc/issues/1162).
 {: .gotcha }
 
 
