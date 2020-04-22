@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Getting Started with Code Ready Containers and Docker"
+title:  "Getting Started with Red Hat CodeReady Containers and Docker"
 date:   2020-04-21
-tags: [Kubernetes, OpenShift, Docker, Code Ready Containers]
+tags: [Kubernetes, OpenShift, Docker, CodeReady Containers]
 ---
 
-Code Ready Containers is a version of Red Hat OpenShift Container platform that runs on your laptop. By following this guide, you will be able to set it up on your laptop, push images to its image registry from your existing local docker registry and run those images in pods on the CRC cluster.
+Red Hat CodeReady Containers (CRC) is a version of Red Hat OpenShift Container platform that runs on your laptop. By following this guide, you will be able to set it up on your laptop, push images to its image registry from your existing local docker registry and run those images in pods on the CRC cluster.
 
 When first moving to or evaluating OCP, you might want to take small steps.  If you are like me, you will like to start from what you know and try new things a little at a time.
 
@@ -13,7 +13,7 @@ I was using docker desktop for Mac and I would tend to write code, test it, buil
 
 ![Previous Workflow]({{ site.url }}{{ site.baseurl}}/assets/previous-workflow-local-k8s-workflow.png)
 
-My eventual production environment is Red Hat OpenShift Container Platform so I wanted to try out Code Ready Containers as my local Kuberenetes cluster. I figured that I should probably swap `kubectl run` for `oc run`. I would probably need to do a `docker push` at some point given that CRC has its own image registry. If I could mimimise my first step of exploration to just those changes, then I would still be in my comfort zone and I would gradually be expanding that comfort zone.
+My eventual production environment is Red Hat OpenShift Container Platform so I wanted to try out CodeReady Containers as my local Kuberenetes cluster. I figured that I should probably swap `kubectl run` for `oc run`. I would probably need to do a `docker push` at some point given that CRC has its own image registry. If I could mimimise my first step of exploration to just those changes, then I would still be in my comfort zone and I would gradually be expanding that comfort zone.
 
 ![Baby Step Towards CRC Workflow]({{ site.url }}{{ site.baseurl}}/assets/baby-step-towards-crc-workflow.png)
 
@@ -43,7 +43,7 @@ After a fair bit of searching, I eventually figured it out. This guide lists all
 I have tested the instructions in this guide with:
  - MacOS Catalina 10.15.3
  - Docker version 19.03.8, build `afacb8b`  (from Docker Desktop version 2.2.0.5)
- - OpenShift Container Platform Code Ready Containers version 1.8.0
+ - OpenShift Container Platform CodeReady Containers version 1.8.0
 
 ### Steps
 
