@@ -239,3 +239,13 @@ Now you have taken your first step and not deviated much from you previous devel
  - Create [BuildConfigs](https://docs.openshift.com/container-platform/4.3/builds/understanding-image-builds.html) to declaratively specify to CRC how your images should be built.
  - Explore some of the [operators available](https://operatorhub.io/) to simplify the management of the cluster and workloads deployed to it.
  - In particualr, explore the [Knative Serving Operator](https://operatorhub.io/operator/knative-serving-operator) and the tech preview of the [OpenShift Serverless operator](https://www.openshift.com/learn/topics/serverless) for a developer friendly way to deploy and manage your own workloads on OpenShift Container platform
+
+
+ <script src="https://utteranc.es/client.js"
+         repo="blog"
+         issue-term="pathname"
+         label="BlogComment"
+         theme="github-light"
+         crossorigin="anonymous"
+         async>
+ </script>
