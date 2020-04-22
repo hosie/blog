@@ -5,7 +5,7 @@ date:   2020-04-21
 tags: [Kubernetes, OpenShift, Docker, Code Ready Containers]
 ---
 
-Code Ready Containers is a version of Red Hat OpenShift Container platform that runs on your laptop. By following this guide, you will be able to set it up on your laptop, push your own code to its image registry and run that code as a workload.
+Code Ready Containers is a version of Red Hat OpenShift Container platform that runs on your laptop. By following this guide, you will be able to set it up on your laptop, push images to its image registry from your existing local docker registry and run those images in pods on the CRC cluster.
 
 When first moving to or evaluating OCP, you might want to take small steps.  If you are like me, you will like to start from what you know and try new things a little at a time.
 
